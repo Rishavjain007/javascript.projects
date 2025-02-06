@@ -5,21 +5,43 @@ const savebtn = document.getElementById("save");
 const result = document.getElementById("result");
 const history = document.getElementById("history");
 let lapno = 0;
-let i = 0;
+let counter = 0;
+
+let arr = JSON.parse(localStorage.getItem("laps")) || [];
 incBtn.addEventListener("click", () => {
-  i++;
-  result.textContent = i;
+  counter++;
+  result.textContent = counter;
 });
 decBtn.addEventListener("click", () => {
-  if (i > 0) {
-    i--;
-    result.textContent = i;
+  if (counter > 0) {
+    counter--;
+    result.textContent = counter;
   }
 });
 resetBtn.addEventListener("click", () => {
-  i = 0;
-  result.textContent = i;
+  counter = 0;
+  result.textContent = counter;
 });
-savebtn.addEventListener("click",()=>{
-    
-})
+savebtn.addEventListener("click", () => {
+  arr.push(counter);
+  localStorage.setItem("laps", JSON.stringify(arr));
+    display();
+  });
+  function display() {
+      history.innerHTML = "";
+      arr.forEach((el, index) => {
+        const entry = document.createElement("li");
+        entry.textContent = `laps ${index + 1}: ${el}`;
+        history.appendChild(entry);
+        const deletebtn = document.createElement("button");
+        deletebtn.textContent = "delete";
+        entry.appendChild(deletebtn);
+        deletebtn.addEventListener("click", () => {
+          history.removeChild(entry);
+          arr.splice(index, 1);
+          localStorage.setItem("laps", JSON.stringify(arr));
+          displayData();
+        });
+      });
+    }
+  display();

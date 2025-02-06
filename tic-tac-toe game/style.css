@@ -1,0 +1,84 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff6f61, #6a11cb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Win Message */
+#winuser {
+    font-size: 1.5rem;
+    color: #f1c40f;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Tic-Tac-Toe Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    border: 2px solid transparent;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, border 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+
+/* Restart Button */
+#restartBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff6f61, #6a11cb);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#restartBtn:hover {
+    background: linear-gradient(45deg, #2575fc, #ff6f61);
+    transform: scale(1.05);
+}
