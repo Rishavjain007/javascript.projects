@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: 'Verdana', sans-serif; /* Changed font */
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #004d40; /* Dark teal text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styling for the input field */
+#input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffffff; /* White input background */
+    color: #004d40; /* Dark teal text */
+    border: 2px solid #004d40; /* Dark teal border */
+    border-radius: 10px; /* More rounded corners */
+    margin-bottom: 10px;
+    outline: none; /* Remove default outline */
+}
+
+#input::placeholder {
+    color: #004d40; /* Dark teal placeholder text */
+    opacity: 0.7; /* Slightly transparent */
+}
+
+/* Styling for the Add button */
+#addBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    background-color: #00796b; /* Teal background */
+    border: none;
+    border-radius: 10px; /* More rounded corners */
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#addBtn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Styling for the container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff; /* White container background */
+    padding: 20px;
+    border-radius: 10px; /* More rounded corners */
+    border: 2px solid #004d40; /* Dark teal border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Styling for the list */
+#Item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each list item */
+#Item-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #004d40; /* Dark teal border between items */
+    font-size: 18px; /* Slightly smaller font size */
+}
+
+#Item-list li:last-child {
+    border-bottom: none;
+}
+
+/* Styling for the delete button */
+#Item-list li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ffffff; /* White text */
+    background-color: #d32f2f; /* Red for delete button */
+    border: none;
+    border-radius: 5px; /* Slightly more rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#Item-list li button:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+}
