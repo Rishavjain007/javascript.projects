@@ -12,6 +12,7 @@ async function getJoke() {
   }
 }
 btnEl.addEventListener("click", async() => {
+  peraEl.textContent = "fetching a new and latest joke for only you.......";
   try {
     const joke = await getJoke();
     peraEl.textContent = joke;
