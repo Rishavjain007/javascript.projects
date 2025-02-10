@@ -1,0 +1,73 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and center content */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f9d423, #ff4e50);
+    color: #333;
+    margin: 0;
+}
+
+/* Style the container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    backdrop-filter: blur(10px);
+}
+
+/* Style the heading */
+h1 {
+    font-size: 28px;
+    color: #ff4e50;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Style the paragraph */
+#joke {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Style the button */
+button {
+    font-size: 18px;
+    background: #ff4e50;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+
+button:hover {
+    background: #e43a3a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add a hover effect for the container */
+.container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
