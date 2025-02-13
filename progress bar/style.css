@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#bar {
+    background-color: red;
+    height: 100%;
+    width: 0;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+.progress-bar {
+    width: 30%;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
