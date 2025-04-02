@@ -1,0 +1,153 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Rishav Jain",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["MERN Stack", "React", "Node.js"],
+        "projects": [
+          "Random-Dog-Pic-Generate",
+          "Fitness-Tracker",
+          "FrontEnd-Code-Editor"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tushar Saini",
+        "age": 22,
+        "course": "B.Tech CSE",
+        "skills": ["Full Stack Development", "React", "JavaScript"],
+        "projects": ["Tour and Travel Site", "Netflix Clone", "Grocery Website"]
+      },
+      {
+        "id": 3,
+        "name": "Ravindra Saini",
+        "age": 20,
+        "course": "B.Tech CSE",
+        "skills": ["HTML", "CSS", "JavaScript", "Python"],
+        "projects": ["Digital Clock", "W3 Website Clone", "Analog Clock"]
+      },
+      {
+        "id": 4,
+        "name": "Himek Rajput",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["JavaScript", "Game Development", "Web Development"],
+        "projects": ["Dino Game", "Snake Game", "Tic-Tac-Toe"]
+      },
+      {
+        "id": 5,
+        "name": "Rohan Sharma",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["MERN Stack", "React", "Node.js"],
+        "projects": ["E-commerce Website", "Portfolio Website", "Task Manager"]
+      },
+      {
+        "id": 6,
+        "name": "Rohit Kumar",
+        "age": 22,
+        "course": "B.Tech CSE",
+        "skills": ["Java", "Spring Boot", "Hibernate"],
+        "projects": ["Library Management System", "Hospital Management System", "Chat Application"]
+      },
+      {
+        "id": 7,
+        "name": "Aryan Verma",
+        "age": 20,
+        "course": "B.Tech IT",
+        "skills": ["Python", "Django", "Machine Learning"],
+        "projects": ["Face Recognition System", "Chatbot", "Stock Price Predictor"]
+      },
+      {
+        "id": 8,
+        "name": "Simran Kaur",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["HTML", "CSS", "Bootstrap"],
+        "projects": ["Personal Blog", "Event Management Website", "Weather App"]
+      },
+      {
+        "id": 9,
+        "name": "Sarthak Mehta",
+        "age": 23,
+        "course": "B.Tech AI",
+        "skills": ["Deep Learning", "TensorFlow", "NLP"],
+        "projects": ["Image Classifier", "Spam Detection", "Text Summarization"]
+      },
+      {
+        "id": 10,
+        "name": "Neha Gupta",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["Android Development", "Kotlin", "Firebase"],
+        "projects": ["Expense Tracker App", "To-Do List App", "Health Tracker App"]
+      },
+      {
+        "id": 11,
+        "name": "Manish Patel",
+        "age": 22,
+        "course": "B.Tech CSE",
+        "skills": ["Cyber Security", "Ethical Hacking", "Network Security"],
+        "projects": ["Penetration Testing Tool", "Firewall Analyzer", "Phishing Detection"]
+      },
+      {
+        "id": 12,
+        "name": "Pooja Sharma",
+        "age": 20,
+        "course": "B.Tech IT",
+        "skills": ["UI/UX Design", "Figma", "Adobe XD"],
+        "projects": ["E-Learning Platform UI", "Banking App UI", "Food Delivery App UI"]
+      },
+      {
+        "id": 13,
+        "name": "Vikas Thakur",
+        "age": 21,
+        "course": "B.Tech CSE",
+        "skills": ["C++", "Data Structures", "Algorithms"],
+        "projects": ["Sorting Visualizer", "Graph Algorithm Simulator", "Coding Practice Platform"]
+      },
+      {
+        "id": 14,
+        "name": "Sanya Gupta",
+        "age": 22,
+        "course": "B.Tech AI",
+        "skills": ["AI/ML", "Python", "Computer Vision"],
+        "projects": ["Face Mask Detector", "Object Detection", "Handwritten Digit Recognition"]
+      },
+      {
+        "id": 15,
+        "name": "Rajesh Khanna",
+        "age": 23,
+        "course": "B.Tech CSE",
+        "skills": ["Blockchain", "Solidity", "Smart Contracts"],
+        "projects": ["Crypto Wallet", "NFT Marketplace", "Decentralized Voting System"]
+      },
+      {
+        "id": 16,
+        "name": "Harsh Vardhan",
+        "age": 21,
+        "course": "B.Tech IT",
+        "skills": ["Cloud Computing", "AWS", "DevOps"],
+        "projects": ["Cloud Storage System", "Kubernetes Deployment", "CI/CD Pipeline"]
+      },
+      {
+        "id": 17,
+        "name": "Anjali Yadav",
+        "age": 20,
+        "course": "B.Tech CSE",
+        "skills": ["IoT", "Embedded Systems", "Arduino"],
+        "projects": ["Smart Home Automation", "IoT Weather Station", "Remote Patient Monitoring"]
+      },
+      {
+        "id": 18,
+        "name": "Kunal Mehra",
+        "age": 22,
+        "course": "B.Tech CSE",
+        "skills": ["Data Science", "R", "SQL"],
+        "projects": ["Sales Prediction", "Customer Segmentation", "Data Visualization Dashboard"]
+      }
+    ]
+  }
+  
